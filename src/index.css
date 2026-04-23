@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-display: "Cinzel", serif;
+  --font-body: "Cormorant Garamond", serif;
+  
+  --color-parchment: #f4ead5;
+  --color-cream: #fdfaf3;
+  --color-bark: #4a2c1a;
+  --color-leaf: #5a7d3a;
+  --color-gold: #b38b4d;
+  --color-female: #c45b74;
+  --color-male: #4a6fa1;
+  --color-highlight-red: #a82e2e;
+  --color-highlight-amber: #e09f3e;
+  --color-banner: #fff9ed;
+}
+
+@layer base {
+  body {
+    @apply font-body bg-bark text-bark;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  h1, h2, h3 {
+    @apply font-display;
+  }
+}
+
+.markdown-body {
+  @apply prose prose-slate max-w-none;
+}

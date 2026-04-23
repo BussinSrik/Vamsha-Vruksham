@@ -1,0 +1,41 @@
+{
+  "toolbar": {
+    "search": {
+      "placeholder": "Search by name..."
+    },
+    "zoom": {
+      "in": "Zoom In",
+      "out": "Zoom Out",
+      "reset": "Reset View"
+    },
+    "io": {
+      "export": "Export JSON/ZIP",
+      "import": "Import JSON/ZIP",
+      "reset": "Reset to File"
+    }
+  },
+  "panel": {
+    "details": "Details",
+    "birthDeath": "Lifespan",
+    "gender": "Gender",
+    "notes": "Notes",
+    "relations": {
+      "parents": "Parents",
+      "spouse": "Spouse",
+      "children": "Children"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "addChild": "Add Child",
+      "addSpouse": "Add Spouse"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "deleteConfirm": "Are you sure you want to delete?",
+    "legend": "drag · scroll · click · upload · branch ±"
+  }
+}
